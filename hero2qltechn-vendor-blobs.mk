@@ -263,6 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/samsung/hero2qltechn/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/samsung/hero2qltechn/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/samsung/hero2qltechn/proprietary/bin/mmi:system/bin/mmi \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
@@ -538,4 +539,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
-    vendor/samsung/hero2qltechn/proprietary/bin/factory.adsp:system/bin/factory.adsp
+    vendor/samsung/hero2qltechn/proprietary/bin/factory.adsp:system/bin/factory.adsp \
+    vendor/samsung/hero2qltechn/proprietary/bin/servicemanager:system/bin/servicemanager \
+    vendor/samsung/hero2qltechn/proprietary/bin/ip:system/bin/ip \
+    vendor/samsung/hero2qltechn/proprietary/bin/iop:system/bin/iop \
+    vendor/samsung/hero2qltechn/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/hero2qltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/samsung/hero2qltechn/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+    vendor/samsung/hero2qltechn/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
+    vendor/samsung/hero2qltechn/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/hero2qltechn/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+    vendor/samsung/hero2qltechn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+    vendor/samsung/hero2qltechn/proprietary/bin/smdexe:system/bin/smdexe \
+    vendor/samsung/hero2qltechn/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/hero2qltechn/proprietary/bin/connfwexe:system/bin/connfwexe
